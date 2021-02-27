@@ -30,7 +30,7 @@ You can get the full path to your project's root by running `pwd` from a termina
 
 ```fish
 # verify we are in vapor project folder
-vapor --version
+vapor build
 # get path to this folder
 pwd
 ```
@@ -38,7 +38,9 @@ pwd
 You should see output similar to the following.
 
 ```
-framework: 4.x.x
-toolbox: 18.x.x
-/path/to/project
+Building project...
+Fetching https://github.com/apple/swift-crypto.git
+Fetching https://github.com/vapor/websocket-kit.git
+Fetching https://github.com/vapor/routing-kit.git
+...
 ```
