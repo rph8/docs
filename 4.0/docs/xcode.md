@@ -30,15 +30,13 @@ You can get the full path to your project's root by running `pwd` from a termina
 
 ```fish
 # verify we are in vapor project folder
-vapor --version
+vapor clean
 # get path to this folder
 pwd
 ```
 
-You should see output similar to the following.
+You should see output similar to the following:
 
-```
-framework: 4.x.x
-toolbox: 18.x.x
-/path/to/project
+```fish                                                   
+  .build               Removed. 
 ```
